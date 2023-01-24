@@ -1,0 +1,145 @@
+NLP
+Definition of NLP Natural language processing  is an interdisciplinary subfield of linguistics, computer science concerned with the interactions between computers and human language, in particular how to program computers to process and analyze large amounts of natural language data. 
+Goal of nlp
+It is a computer capable of "understanding" the contents of documents, including the contextual nuances of the language within them. 
+
+History
+Already in 1950, Alan Turing published an article titled "Computing Machinery and Intelligence" which proposed what is now called the Turing test as a criterion of intelligence, though at the time that was not articulated as a problem separate from artificial intelligence. 
+
+Symbolic nlp
+Given a collection of rules, the computer emulates natural language understanding by applying those rules to the data it confronts.
+
+Statistical nlp
+language processing was due to both the steady increase in computational power and the gradual lessening of the dominance of Chomskyan theories of linguistics (e.g. transformational grammar), whose theoretical underpinnings discouraged the sort of corpus linguistics that underlies the machine-learning approach to language processing.
+1990s: Many of the notable early successes on statistical methods occurred in the field of machine translation, due especially to work at IBM Research. 
+2000s: With the growth of the web, increasing amounts of raw (unannotated) language data has become available since the mid-1990s. Research has thus increasingly focused on unsupervised and semi-supervised learning algorithms
+
+
+Neural networks
+A neural network is a method in artificial intelligence that teaches computers to process data in a way that is inspired by the human brain. 
+speech processing 
+Giving computers the ability to understand text and spoken words in much the same way human beings can.
+Optical character OCR 
+Given an image representing printed text, determine the corresponding text.
+Speech recognition 
+Given a sound clip of a person or people speaking, determine the textual representation of the speech. 
+Speech segmentation 
+Given a sound clip of a person or people speaking, separate it into words. A subtask of speech recognition and typically grouped with it.
+Text-to-speech 
+Given a text, transform those units and produce a spoken representation. Text-to-speech can be used to aid the visually impaired.
+Word segmentation 
+Separate a chunk of continuous text into separate words. 
+Tokenization
+ is the process of demarcating and possibly classifying sections of a string of input characters.
+
+Morphological analysis refers to the analysis of a word based on the meaningful parts contained within.
+Lemmatization
+The task of removing inflectional endings only and to return the base dictionary form of a word which is also known as a lemma Lemmatization is another technique for reducing words to their normalized form. 
+Morphological segmentation
+Separate words into individual morphemes and identify the class of the morphemes.
+Part-of-speech 
+Part-of-speech POS tagging is a popular Natural Language Processing process which refers to categorizing words in a text (corpus) in correspondence with a particular part of speech, depending on the definition of the word and its context.
+Stemming
+The process of reducing inflected (or sometimes derived) words to a base form (e.g., "close" will be the root for "closed", "closing", "close", "closer" etc.). Stemming yields similar results as lemmatization, but does so on grounds of rules, not a dictionary.
+
+Syntactic analysis is defined as analysis that tells us the logical meaning of certain given sentences or parts of those sentences.
+Grammar induction
+Generate a formal grammar that describes a language's syntax.
+Sentence breaking 
+Given a chunk of text, find the sentence boundaries. Sentence boundaries are often marked by periods or other punctuation marks, but these same characters can serve other purposes (e.g., marking abbreviations).
+Parsing
+Determine the parse tree (grammatical analysis) of a given sentence. There are two primary types of parsing: dependency parsing and constituency parsing. Dependency parsing focuses on the relationships between words in a sentence (marking things like primary objects and predicates), whereas constituency parsing focuses on building out the parse tree using a probabilistic context-free grammar (PCFG) (see also stochastic grammar).
+Lexical semantics
+Lexical semantics involves the coding of word meanings (Caplan, 1987). We take this to include semantic features (for example, + animate, + object, — action) that also have implications for grammatical use.
+Distributional semantics
+Distributional semantic models (DSM) -- also known as "word space" or "distributional similarity" models -- are based on the assumption that the meaning of a word can (at least to a certain extent) be inferred from its usage, i.e. its distribution in text.
+Named entity recognition (NER)
+Named-entity recognition (NER) (also known as (named) entity identification, entity chunking, and entity extraction) is a subtask of information extraction that seeks to locate and classify named entities mentioned in unstructured text into pre-defined categories.
+Sentiment analysis 
+Extract subjective information usually from a set of documents, often using online reviews to determine "polarity" about specific objects. It is especially useful for identifying trends of public opinion in social media, for marketing.
+Terminology extraction
+The goal of terminology extraction is to automatically extract relevant terms from a given corpus.
+Word-sense disambiguation (WSD)
+Many words have more than one meaning; we have to select the meaning which makes the most sense in context. For this problem, we are typically given a list of words and associated word senses, e.g. from a dictionary or an online resource such as WordNet.
+Entity linking
+Many words—typically proper names—refer to named entities; here we have to select the entity (a famous individual, a location, a company, etc.) which is referred to in context.
+
+Relational semantics is a technique for describing the imperative aspects of programming languages, simple set theoretic framework.
+
+Relationship extraction
+Given a chunk of text, identify the relationships among named entities (e.g. who is married to whom).
+Semantic parsing
+Semantic parsing is the task of converting a natural language utterance to a logical form: a machine-understandable representation of its meaning.
+Semantic role labelling 
+Given a single sentence, identify and disambiguate semantic predicates (e.g., verbal frames), then identify and classify the frame elements (semantic roles).
+
+Discourse processing, is uncover linguistic structures from texts at several levels, which can support many downstream automated text mining applications.
+Coreference resolution
+Coreference resolution is the task of finding all expressions that refer to the same entity in a text.
+Discourse analysis
+Discourse analysis is the study of social life, understood through analysis of language in its widest sense (including face-to-face talk, non-verbal interaction, images, symbols and documents).
+Recognizing textual entailment
+Given two text fragments, determine if one being true entails the other, entails the other's negation, or allows the other to be either true or false.
+Argument mining
+The goal of argument mining is the automatic extraction and identification of argumentative structures from natural language text with the aid of computer programs. 
+
+Automatic text summarization
+Produce a readable summary of a chunk of text. Often used to provide summaries of the text of a known type, such as research papers, articles in the financial section of a newspaper.
+
+Book generation
+an extension of natural language generation and other NLP tasks is the creation of full-fledged books. The first machine-generated book was created by a rule-based system in 1984 (Racter, The policeman's beard is half-constructed). The first published work by a neural network was published in 2018, 1 the Road, marketed as a novel, contains sixty million words. 
+Dialogue management
+Computer systems intended to converse with a human.
+Document AI
+Document AI is a platform and a family of solutions that help businesses to transform documents into structured data backed by machine learning.
+Grammatical error correction
+Grammatical error detection and correction involves a great band-width of problems on all levels of linguistic analysis.
+Machine translation
+Machine translation is the process of using artificial intelligence to automatically translate text from one language to another without human involvement. 
+Natural-language generation (NLG)
+Convert information from computer databases or semantic intents into readable human language.
+Natural-language understanding (NLU)
+Convert chunks of text into more formal representations such as first-order logic structures that are easier for computer programs to manipulate. Natural language understanding involves the identification of the intended semantic from the multiple possible semantics which can be derived from a natural language expression which usually takes the form of organized notations of natural language concepts. 
+Question answering
+Given a human-language question, determine its answer Typical questions have a specific right answer (such as "What is the capital of Canada?"), but sometimes open-ended questions are also considered (such as "What is the meaning of life?").
+Text-to-image generation
+Given a description of an image, generate an image that matches the description.
+Text-to-scene generation
+Given a description of a scene, generate a 3D model of the scene.
+Text-to-video
+Given a description of a video, generate a video that matches the description.
+Python is a high-level, interpreted programming language which is widely considered to be a simple, readable, and versatile programming language that is easy to learn python.
+A regular expression, also known as a regex or regexp, is a sequence of characters that defines a search pattern, these search patterns can be used to match, search, and manipulate strings, or sets of strings.
+Regular expressions use a special syntax to define search patterns, this syntax can include characters, character classes, and special metacharacters, which are used to specify things like repetitions, alternations, and wildcard matches.
+Text processing refers to the techniques and methods used to manipulate and analyze text data. This can include tasks such as tokenization (splitting text into individual words or phrases), stemming (reducing words to their base form) and lemmatization, (reducing words to their base form with meaning) , counting and analysis, text classification, information extraction.
+Tokenization is the process of breaking a stream of text up into words, phrases, symbols, or other meaningful elements, known as tokens.
+Word tokenization: This involves breaking up a sentence into individual words.
+Sentence tokenization: This involves breaking up a text into individual sentences. 
+Character tokenization: This involves breaking up a sentence into individual characters.
+Stemming is the process of reducing words to their base or root form, the goal of stemming is to reduce words to their base or root form, often called the stem.
+Minimum Edit Distance MED is a measure of the similarity between two strings, often used in computational linguistics and information theory, minimum Edit Distance is a way to determine the minimum number of operations (insertions, deletions, or substitutions) required to transform one string into another. 
+An N gram language model is a statistical model that is used to predict the likelihood of a sequence of words, the "N" in N gram refers to the number of words that the model takes into account at a time when making a prediction.
+The most common type of N-gram language model is the unigram model, which considers only one word at a time. 
+Bigram models, which take into account two words at a time, are also popular. In this case, the model would calculate the probability of each pair of words in the corpus, and use that information to predict the next word in a sequence. 
+Text classification is the process of automatically organizing text into predefined categories based on its content, text classification is a supervised machine learning task that involves training a model on a labeled dataset, where each example text is associated with one or more predefined labels or categories.
+Naive Bayes is a family of probabilistic algorithms based on applying Bayes' theorem with strong (naive) independence assumptions between the features, Naive Bayes is a simple and fast algorithm that can be used for binary and multiclass classification problems, although it is most commonly used for text classification problems.
+Spell correction, also known as spell checking, is the process of identifying and correcting misspelled words in a piece of text, spell correction algorithms can be divided into two main categories: dictionary-based and statistical-based.
+
+Dictionary based spell correction algorithms use a pre-built dictionary of correctly spelled words to check for spelling mistakes.
+Statistical based spell correction algorithms, on the other hand, use statistical models to predict the correct spelling of a word based on the context in which it appears.
+Part-of-speech (POS) tagging is the process of marking each word in a text with its corresponding grammatical category, such as noun, verb, adjective, and so on, this task is also known as grammatical tagging or word-category disambiguation.  
+Vector semantics is a method for representing meaning, the basic idea behind vector semantics is to represent words or phrases as high-dimensional vectors, where each dimension corresponds to a semantic or syntactic property of the word or phrase.
+Sentiment analysis, also known as opinion mining, the goal of sentiment analysis is to determine the attitudes, opinions, and emotions of a speaker or writer with respect to some topic or the overall contextual polarity of a document.
+Rule based approach is This approach uses a predefined set of rules and dictionaries to classify the sentiment of text. 
+Statistical based approach is This approach uses machine learning algorithms to train a model on a labeled dataset, where each example text is associated with a sentiment label (positive, negative, neutral).
+Hybrid approach is This approach combines the benefits of both rule-based and statistical-based approaches by using a combination of predefined rules and machine learning algorithms. 
+Affective analysis, also known as emotion detection or sentiment analysis, the goal of affective analysis is to determine the emotional state of a speaker or writer with respect to some topic or to understand the emotional content of a text. 
+Type is an element of the vocabulary.
+Token is an instance of that type in running text.
+Cosine similarity is a measure of similarity between two non-zero vectors of an inner product space that measures the cosine of the angle between them, the cosine similarity is a value between -1 and 1, where 1 represents the vectors are identical, 0 represents orthogonality and -1 represents opposite.
+Homonyms are words that share a form but have unrelated, distinct meanings.
+Polysemy is a linguistic phenomenon in which a single word or phrase has multiple, distinct meanings, for example, the word "bank" can mean a financial institution, the edge of a river, or the tilt of an airplane. 
+Synonyms are Word that have the same meaning in some or all contexts.
+Antonyms are words that have opposite meanings, they are also known as opposite words or antonyms.
+Hyponymy is a linguistic and cognitive relationship between words, where one word (the hyponym) is more specific or narrower in meaning than another word (the hypernym), for example, the hyponym "Golden Retriever" is more specific than the hypernym "dog". 
+WordNet is a lexical database of English words that groups words into sets of synsets and organizes them into a hierarchy based on their relationships
