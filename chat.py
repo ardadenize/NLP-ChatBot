@@ -1,16 +1,4 @@
 
-
-import io
-import random
-import string # to process standard python strings
-import warnings
-import numpy as np
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
-from textblob import TextBlob
-import warnings
-warnings.filterwarnings('ignore')
-
 import nltk
 from nltk.stem import WordNetLemmatizer
 nltk.download('popular', quiet=True)
